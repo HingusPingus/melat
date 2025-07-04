@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>you mah brrrr ra da mmba eeeeenba brrr rat da nnda enda boo..rata teek um blura brrrr ra..duck ba dingo ba bitty ah ta freeta beeta ooh ra subuh dee ma ooh..rrrr reema ya me maraha suh bit ra da eemah a hin ta boo ra da eee wazizza ooh..ra suh ma heen na neena renaha..ooh hoo ra..ya da bin boorrrrra! </title>
 </head>
 <body>
@@ -25,25 +29,22 @@
                     <div class="col-8">
                 <ul class="navbar-nav me-auto mb-5 me-0 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active me-5 lora" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle lora" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Subgeneros
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Heavy Metal</a></li>
-                        <li><a class="dropdown-item" href="#">Speed Metal</a></li>
-                        <li><a class="dropdown-item" href="#">Thrash Metal</a></li>
-                        <li><a class="dropdown-item" href="#">Power Metal</a></li>
-                        <li><a class="dropdown-item" href="#">Death Metal</a></li>
-                        <li><a class="dropdown-item" href="#">Black Metal</a></li>
-                        <li><a class="dropdown-item" href="#">Todos los generos</a></li>
+                        <li><a class="dropdown-item lora" href="#">Heavy Metal</a></li>
+                        <li><a class="dropdown-item lora" href="#">Thrash Metal</a></li>
+                        <li><a class="dropdown-item lora" href="#">Death Metal</a></li>
+                        <li><a class="dropdown-item lora" href="#">Black Metal</a></li>
                     </ul>
                     </li>
                 </ul>
                 </div>
-                <form class="d-flex" role="search">
+                <form class="d-flex lora" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                     <div class="col-1"></div>
                     <button class="btn btn-outline-light" type="submit">Search</button>
@@ -57,31 +58,66 @@
         
     </header>
     <main>
-        <div class="col-1"></div>
-        <div id="carouselExample" class="carousel slide">
-            
-            <div class=" carousel-inner">
-                
-                <div class="carrusel carousel-item active">
-                    <img src="imagenes/Metallica.jpeg" class="bloque d-block w-50" alt="Metallica">
+       <div id="carouselExampleCaptions" class="carousel slide">    
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="imagenes/metallicaMoscu.png" class="carrusel_img d-block w-100" alt="...">
+                <div class="carrusel_texto carousel-caption  d-md-block">
+                        <h2 class="metal-mania-regular">First slide label</h2>
+                        <p class="lora">Some representative placeholder content for the first slide.</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                <img src="imagenes/maidenChile.png" class="carrusel_img d-block w-100" alt="...">
+                <div class="carrusel_texto carousel-caption  d-md-block">
+                    <h2 class="metal-mania-regular">Second slide label</h2>
+                    <p class="lora">Some representative placeholder content for the second slide.</p>
+                </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                <img src="imagenes/sabbath1975.png" class="carrusel_img d-block w-100" alt="...">
+                <div class="carrusel_texto carousel-caption  d-md-block">
+                    <h2 class="metal-mania-regular">Third slide label</h2>
+                    <p class="lora">Some representative placeholder content for the third slide.</p>
+                </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="col-1"></div>
+        <div class="linea_piola"></div>
+        <div class="card_box_title w-100"></div>
+        <div class="card_box w-100">
+            <div class="col-1"></div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        
+
+
     </main>
     
 

@@ -1,6 +1,52 @@
+main{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: black;
+}
 .bloque{
     justify-content: center;
 }
 .carrusel{
     display: flex;
+}
+.carrusel_texto {
+    left: 40%;
+    transform: translateX(-50%);
+    bottom: 40%; /* adjust this value to control vertical position */
+    text-align: center;
+    width: auto;
+}
+
+.carrusel_img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+
+.metal-mania-regular {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.card_box{
+    display: flex;
+    justify-content: space-between;
+}
+.card_box_title{
+
+}
+.linea_piola{
+    height: 2px;
+    width: 90%;
+    background-color: white;
 }
