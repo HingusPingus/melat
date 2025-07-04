@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.carrusel_img{
+    width: 100%;
+}
+.carrusel{
+    width:75%;
+    justify-content: center;
+}
