@@ -12,11 +12,14 @@ body{
     display: flex;
 }
 .carrusel_texto {
-    left: 40%;
-    transform: translateX(-50%);
-    bottom: 40%; /* adjust this value to control vertical position */
-    text-align: center;
-    width: auto;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    padding: 0;
 }
 
 .carrusel_img {
@@ -24,6 +27,12 @@ body{
     width: 100%;
     height: auto;
     filter: brightness(50%);
+}
+.titulo_carrusel{
+    font-size: xx-large;
+}
+.texto_carrusel{
+    font-size: large;
 }
 
 .metal-mania-regular {
@@ -42,11 +51,78 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.card_box_title{
 
+.alineamiento{
+    height: 100%;
 }
 .linea_piola{
-    height: 2px;
+    height: 1.5px;
     width: 90%;
+    margin-bottom: 10px;
     background-color: white;
 }
+
+.container_linea_piola{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: white;
+}
+.titulo{
+    margin-right: 80%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+@media(max-width:440px){
+    .carrusel_texto {
+        top: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+        padding: 0;
+    }
+}
+@media(max-width: 775px){
+    .titulo_carrusel{
+        font-size: x-large;
+    }
+    .texto_carrusel{
+        font-size: medium;
+    }
+}
+@media(max-width: 483px){
+    .titulo_carrusel{
+        font-size: large;
+    }
+    .texto_carrusel{
+        font-size: small;
+    }
+    .card_box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+    .card_aux{
+        margin-top: 5%;
+    }
+}
+@media(max-width: 392px){
+    .titulo_carrusel{
+        font-size: medium;
+    }
+    .texto_carrusel{
+        font-size: x-small;
+    }
+}
+
+
+/*medias del texto del carrusel: 775 a xlarge el titulo y texto a medium, 
+483 a large el titulo y small el texto, 392 a medium el titulo y xsmall el texto*/
