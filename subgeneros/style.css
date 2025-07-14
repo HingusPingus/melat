@@ -4,17 +4,88 @@ body{
 #container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .lora {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
-.carrusel_img{
+.carrusel_img {
+    object-fit: cover;
     width: 100%;
+    height: auto;
+    filter: brightness(75%);
+    margin: 20px 0;
+    margin: 20px auto;
+    border: 3px solid #555;
+    box-shadow: 0 0 15px #333;
+    max-width: 100%;
+    height: auto;
 }
+body {
+    background-color: #000;
+    color: #ddd;
+    line-height: 1.6;}
+
 .carrusel{
     width:75%;
     justify-content: center;
 }
+.metal-mania-regular {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.descripcion{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+}
+footer{
+    background-color: rgba(43,48,53,1);
+    height: 60px;
+    display:flex;
+    justify-content: space-around;
+}
+.icono{
+    height: 30px;
+    width: 30px;
+}
+#logos{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 20px;
+    margin-right: 1%;
+}
+#copyright{
+    margin:0;
+    color:white; 
+    padding-top: 35px;
+}
+@media(max-width: 392px){
+    #logos{
+        display: none;
+    }
+}
+@media(max-width:500px){
+    footer{
+        background-color: rgba(43,48,53,1);
+        display:flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    #copyright{
+        margin:0;
+        color:white; 
+        padding-top: 0;
+    }
+}
+
