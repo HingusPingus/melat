@@ -2,10 +2,8 @@ body{
     background-color: black;
 }
 #container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .lora {
   font-family: "Lora", serif;
@@ -14,7 +12,9 @@ body{
   font-style: normal;
   color: white;
 }
-
+#caracteristicancer{
+    margin-left: 5%;
+}
 body {
     background-color: #000;
     color: #ddd;
@@ -34,8 +34,6 @@ body {
     margin-top: 30px;
 }
 .descripcion{
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 20px;
 }
 footer{
@@ -111,6 +109,9 @@ body{
     height: auto;
     filter: brightness(75%);
 }
+.item{
+    font-size: large;
+}
 .titulo_carrusel{
     font-size: 80px;
 }
@@ -131,6 +132,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    alignment-baseline: central;
 }
 .lora_black{
     color: black;
