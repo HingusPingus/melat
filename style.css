@@ -149,6 +149,10 @@ h1{
 .redirectin{
     text-decoration: none;
 }
+.opinion{
+    text-decoration: none;
+}
+
 #sub-sexos{
     display: flex;
     flex-direction: column;
