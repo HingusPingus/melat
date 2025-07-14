@@ -103,7 +103,7 @@ h1{
     width: 35%;
     margin-right: 70%;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .titulo_canciones {
   width: 45%;
@@ -133,9 +133,24 @@ h1{
     width: 100%;
     height: auto;
 }
-
-
-
+.saber_mas{
+    margin-top: 2%;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+.redirectin{
+    text-decoration: none;
+}
+#sub-sexos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color:rgb(43, 58, 73);
+    padding: 5% 8% 5% 8%;
+    margin-top: 5%;
+}
 
 footer{
     background-color: rgba(43,48,53,1);
