@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_form.css">
+    <title>form</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                        <img src="imagenes/2-inch-mild-steel-galvanized-square-pipe.png" alt="Bootstrap" width="80" height="60">
+                    </a>
+                    <div class="col-1"></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="col-8">
+                <ul class="navbar-nav me-auto mb-5 me-0 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active me-5 lora" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle lora" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Subgeneros
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item lora" href="subgeneros/heavy.html">Heavy Metal</a></li>
+                        <li><a class="dropdown-item lora" href="subgeneros/thrash.html">Thrash Metal</a></li>
+                        <li><a class="dropdown-item lora" href="subgeneros/death.html">Death Metal</a></li>
+                        <li><a class="dropdown-item lora" href="subgeneros/black.html">Black Metal</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </div>
+                <form class="d-flex lora" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <div class="col-1"></div>
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+                
+                
+
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div id="alineador_de_form">
+                    <form>
+                        <h2 class="mb-4 metal-mania-regular">Danos tu opinión</h2>
+
+                        <!-- Puntuación -->
+                        <div class="mb-3">
+                            <label for="rating" class="form-label lora">¿Qué puntuación le darías a la página? (1 a 10)</label>
+                            <input type="number" min="1" max="10" class="form-control lora" id="rating" name="rating" required>
+                        </div>
+
+                        <!-- Te gustó -->
+                        <div class="mb-3">
+                            <label class="form-label lora">¿Te gustó la página?</label>
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="liked" id="likedYes" value="Sí" required>
+                            <label class="form-check-label lora" for="likedYes">
+                                Sí
+                            </label>
+                            </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="liked" id="likedNo" value="No" required>
+                            <label class="form-check-label lora" for="likedNo">
+                                No
+                            </label>
+                            </div>
+                        </div>
+
+                        <!-- Mejoras -->
+                        <div class="mb-3">
+                            <label for="improvements" class="form-label lora">¿En qué podríamos mejorar?</label>
+                            <textarea class="form-control lora" id="improvements" name="improvements" rows="3"></textarea>
+                        </div>
+
+                        <!-- Errores -->
+                        <div class="mb-3">
+                            <label for="errors" class="form-label lora">¿Encontraste algún error?</label>
+                            <textarea class="form-control lora" id="errors" name="errors" rows="2"></textarea>
+                        </div>
+
+                        <!-- Sugerencias -->
+                        <div class="mb-3">
+                            <label for="suggestions" class="form-label lora">¿Qué subgénero, banda u otra cosa te gustaría que agreguemos?</label>
+                            <textarea class="form-control lora" id="suggestions" name="suggestions" rows="2"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary lora">Enviar</button>
+                    </form>
+                </div>
+                
+                <div class="col-1"></div>
+                    </div>
+                </div>
+        
+    </main>
+
+    <footer>
+        <div class="footer_helper">
+            <p id="copyright">&copy; 2025 Melatonin</p>
+            <div id="logos">
+                <img class="icono" src="imagenes/vecteezy_twitter-png-icon_16716486.png" alt="tuiter">
+                <img class="icono" src="imagenes/vecteezy_instagram-logo-png-instagram-logo-transparent-png_23986502.png" alt="instagram">
+                <img class="icono" src="imagenes/figma-logo-512.png" alt="figma">
+                <img class="icono" src="imagenes/Steam_icon_logo.svg.png" alt="steam">
+                <img class="icono" src="imagenes/OptiFine.png" alt="optifine">
+                <img class="icono" src="imagenes/python_logo_icon_168886.png" alt="python">
+                <img class="icono" src="imagenes/LOGO- AIRV.png" alt="airv">
+                <img class="icono" src="imagenes/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930480.png" alt="linkedin">
+                <img class="icono" src="imagenes/ChatGPT_logo.svg.png" alt="chatgpt">
+                <img class="icono" src="imagenes/pngimg.com - lg_logo_PNG21.png" alt="LG">
+                <img class="icono" src="imagenes/SDLG_logo.svg.png" alt="SDLG">
+                <img class="icono" src="imagenes/Green_Ducks_Logo.png" alt="Green Ducks">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
