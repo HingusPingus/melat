@@ -41,16 +41,28 @@ body{
 }
 
 .metal-mania-regular {
-  font-family: "Metal Mania", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    color: white;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .lora {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.lora_black{
+    color: black;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.subrayado{
+    text-decoration: underline;
 }
 .card_box{
     display: flex;
@@ -69,6 +81,13 @@ body{
     margin-bottom: 10px;
     background-color: white;
 }
+.linea_piola_corta{
+    height: 1px;
+    width: 75%;
+    margin-bottom: 10px;
+    background-color: white;
+    margin-top: 2%;
+}
 
 .container_linea_piola{
     width: 100%;
@@ -86,6 +105,38 @@ h1{
     margin-left: 20%;
     margin-top: 10%;
 }
+.titulo_canciones {
+  width: 45%;
+  margin-right: 55%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+
+.integrante{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+.integrante_palabras{
+    width: 70%;
+    margin-left: 2%;
+}
+.integrante_img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.integrante_foto{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
 footer{
     background-color: rgba(43,48,53,1);
     height: 60px;
@@ -169,6 +220,29 @@ footer{
         margin:0;
         color:white; 
         padding-top: 0;
+    }
+}
+@media(min-width:610px){
+    .integrante_img{
+        width: 220px;
+        height: auto;
+    }
+    .linea_piola_corta{
+        height: 0;
+    }
+}
+@media(max-width:610px){
+    .integrante_img{
+        width: 80%;
+        height: auto;
+    }
+    .integrante_palabras{
+        margin-top: 1%;
+        width: 80%;
+    }
+    .integrante{
+        margin-top: 3%;
+        flex-direction: column;
     }
 }
 
