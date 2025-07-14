@@ -108,11 +108,19 @@ h1{
 .titulo_canciones {
   width: 45%;
   margin-right: 55%;
-  margin-left: 20%;
+  margin-left: 13%;
   margin-top: 2%;
 }
+.desc_banda{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 90%;
+}
 
-
+.titulo_integrantes{
+    width: 100%;
+    margin-left: 13%;
+}
 .integrante{
     display: flex;
     width: 90%;
@@ -135,8 +143,8 @@ h1{
 }
 .saber_mas{
     margin-top: 2%;
-    margin-left: 50%;
-    margin-right: 5%;
+    margin-left: 63%;
+    margin-right: 10%;
 }
 .redirectin{
     text-decoration: none;
