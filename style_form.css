@@ -70,3 +70,21 @@ footer{
     font-weight: 400;
     font-style: normal;
 }
+@media(max-width:500px){
+    footer{
+        background-color: rgba(43,48,53,1);
+        display:flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    #copyright{
+        margin:0;
+        color:white; 
+        padding-top: 0;
+    }
+    #logos{
+        display: none;
+    }
+}
