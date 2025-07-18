@@ -1,0 +1,24 @@
+{
+  "name": "melat",
+  "version": "1.0.0",
+  "main": "enviar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HingusPingus/melat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HingusPingus/melat/issues"
+  },
+  "homepage": "https://github.com/HingusPingus/melat#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.2"
+  }
+}
