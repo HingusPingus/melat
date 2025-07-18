@@ -24,7 +24,10 @@ connection.connect(err => {
 });
 
 // Serve the form if needed
-app.get('/', (req, res) => {
+app.get('/', (req, res) => {app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/form.html'); // Or your HTML filename
+});
+
   res.sendFile(__dirname + '/form.html'); // Or your HTML filename
 });
 
